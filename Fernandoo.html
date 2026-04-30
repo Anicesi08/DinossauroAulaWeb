@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form>
+        <label>Nome 🗿🍷: </label> <!-- tag referente ao texto do formulario -->
+        <input type="text"><br><br><!-- uma caixa para o usuario inserir um texto -->
+        <label>Senha 🔐: </label>
+        <input type="password"><br><br>
+        <label>Comentários 💬: </label>
+        <textarea rows="10" cols="50" maxlength="3"></textarea> <br><br> <!-- Rows numero de linhas e cols numero de colunas maslenght limita os caracteres-->
+        <label>Estado 🇧🇷: </label>
+        <select>
+            <option>AC</option>
+            <option>AM</option>
+            <option>AP</option>
+            <option>BA</option>
+            <option>GO</option>
+            <option>MT</option>
+        </select><br><br>
+        Masculino: <input type="radio" name="genero"><br>
+        Feminino: <input type="radio" name="genero" checked><br>
+        Preferências: <br>
+        <input type="checkbox">Sertanejo
+        <input type="checkbox">Rock
+        <input type="checkbox">pagode <br><br>
+        <button>ENVIAR</button>
+        <input type="button" onclick="alert('Olá Tudo Bem?')" value="Clique em mim!"><br><br>
+        <input type="reset" value="Resetar"><br><br>
+        <label for="Cor Favorita">Selecione sua cor favorita:</label>
+        <input type="color" id="favcolor" name="favcolor"><br>
+        <label for="Data de Nascimento">Data de Nascimento:</label>
+        <input type="date" id="Data de Nascimento" name="Data de Nascimento"><br>
+        <label for="datemax">Coloque a Data de nascimento depois de 1999-12-31:</label>
+        <input type="date" id="datemax" name="datemax" max="1999-12-31"><br>
+        <label for="datemin">Coloque a Data de nascimento depois de 2000-01-01:</label>
+        <input type="date" id="datemin" name="datemin" min="2000-01-02"><br>
+        <label for="birthdaytime">Data de nascimento e o minuto :</label>
+        <input type="datetime-local" id="birthdaytime" name="birthdaytime"><br><br>
+        <label for="email">Escreva seu E-mail:</label>
+        <input type="email" id="email" name="email">
+        <label>Senha 🔐: </label>
+        <input type="password"><br><br>
+        <input type="image" src="Maotselula.jpeg" alt="Submit" width="200" height="200"><br><br>
+        <label for="myfile">Selecione o Arquivo:</label>
+        <input type="file" id="myfile" name="myfile"><br><br>
+        <label for="fname">Primeiro Nome:</label>
+        <input type="text" id="fname" name="fname"><br>
+        <input type="hidden" id="custId" name="custId" value="3487">
+        <input type="submit" value="Enviar"><br>
+        <label for="bdaymonth">Aniversário (mês e ano):</label>
+        <input type="month" id="bdaymonth" name="bdaymonth"><br>
+        <label for="quantity">Quantidade (entre 1 e 5):</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="5"><br>
+        <label for="vol">Volume (entre 0 e 50):</label>
+        <input type="range" id="vol" name="vol" min="0" max="50"><br>
+        <label for="gsearch">Pesquisar no Google:</label>
+        <input type="search" id="gsearch" name="gsearch"><br>
+        <label for="phone">Coloque seu telefone:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+         </form>
+        
+    
+</body>
+</html>
